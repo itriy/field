@@ -1,0 +1,17 @@
+body {
+    height: 200px;
+}
+#field {
+    border: groove black;
+    background-color: #00FF00;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#ball {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left 0.5s, top 0.5s;
+}

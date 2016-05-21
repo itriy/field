@@ -1,0 +1,1 @@
+import Game from './game';let newGame = new Game({    fieldElem: document.getElementById('field'),    fieldWidth: 200,    fieldHeight: 300,    fieldBorderWidth: 20,    ballElem: document.getElementById('ball'),    ballRadius: 20});
